@@ -9,7 +9,9 @@ For tweets, you can add `{{< tweet 672818357582868480 >}}` into the post and
 it'll render the HTML for the embed.
 
 In this repo, I've got a few other shortcodes you can copy into the
-`layouts/shortcodes/` directory to reference.
+`layouts/shortcodes/` directory to reference. For more info, check out
+[this post](https://serverlesscode.com/post/hugo-shortcodes-for-tech-blogging/)
+to learn more.
 
 
 ## The Docs
