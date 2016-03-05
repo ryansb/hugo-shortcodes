@@ -13,6 +13,10 @@ In this repo, I've got a few other shortcodes you can copy into the
 [this post](https://serverlesscode.com/post/hugo-shortcodes-for-tech-blogging/)
 to learn more.
 
+## License
+
+This project is released under the MIT license, see the LICENSE file for full
+text.
 
 ## The Docs
 
@@ -59,7 +63,7 @@ and links it to the template in a region you specify.
 ```
 
 This code puts together the full URL, and can optionally take an AWS region to
-launch templates worldwide. It outputs a button like this: 
+launch templates worldwide. It outputs a button like this:
 <a style="text-decoration: none" href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=SelfCleaningStack&amp;templateURL=https://s3.amazonaws.com/demos.serverlesscode.com/2015-12-cloudformation-custom-resources%2fcfn-log-cleaner-stack.template">
   <img style="height: 1em" src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png" alt="Launch stack SelfCleaningStack">
 </a>
